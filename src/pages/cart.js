@@ -52,12 +52,12 @@ export default function CartPage(){
             ) : (
             <>
                <h2 className="text-4xl font-semibold">
-                    Your shopping cart is empty.
+                    Tú carrito está vacio.
                </h2>
                <p className="mt-1 text-xl">
-                Check out our awesome products {""}
+                Mira nuestras increíbles ofertas {""}
                 <Link href="/" className="text-red-500 underline">
-                    here!
+                    aquí!
                 </Link>
                </p>
             </>

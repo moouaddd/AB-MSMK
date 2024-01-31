@@ -31,14 +31,14 @@ export default function ProductCard( {product, index} ){
                 <Rating/>
                 <div className="mt-4 flex items-center justify-between space-x-2">
                     <div>
-                        <p className="text-gray-500">Precio</p>
+                        <p className="text-gray-500">Precio</p> 
                         <p className="text-lg font-semibold">{formatCurrencyString({
                             currency: product.currency,
                             value: product.price
 
                         })}</p>
                     </div>
-                    <button onClick={onAddToCart} className="border rounded-lg py-1 px-4">
+                    <button onClick={onAddToCart} className="border bg-green-400  hover:bg-green-100 hover:text-green-500 rounded-lg py-1 px-4">
                         Añadir al carrito
                     </button>
                 </div>

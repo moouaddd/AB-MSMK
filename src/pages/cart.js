@@ -11,7 +11,7 @@ export default function CartPage(){
 
 
     function sorry() {
-        const soSorry = toast.success("Disculpa las molestias, el método de pago actualmente no funciona por temas financieros de la empresa!");
+        const soSorry = toast.success("Disculpa las molestias, el método de pago actualmente no funciona por motivos financieros de la empresa!");
         
     }
     
